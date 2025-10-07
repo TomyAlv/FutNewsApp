@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="72dp"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingVertical="6dp"
+    android:paddingHorizontal="4dp"
+    android:background="@drawable/bg_date_chip_selector">
+
+    <TextView
+        android:id="@+id/tvDow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIE"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:letterSpacing="0.05"
+        android:textAllCaps="true"
+        android:textColor="@color/date_chip_text_color" />
+
+    <TextView
+        android:id="@+id/tvDayMonth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OCT 3"
+        android:textSize="11sp"
+        android:letterSpacing="0.02"
+        android:textColor="@color/date_chip_text_color" />
+</LinearLayout>

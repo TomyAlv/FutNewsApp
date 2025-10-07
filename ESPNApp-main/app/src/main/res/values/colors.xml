@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="bg_light">#FAFAFA</color>
+    <color name="card_bg_light">#FFFFFF</color>
+    <color name="card_stroke_light">#E6E6E6</color>
+    <color name="fg_subtle_light">#666666</color>
+    <color name="accent_red">#D31A1A</color>
+
+    <color name="purple_500">#6A1B9A</color>
+    <color name="primary_color">#E21B22</color> <!-- red ESPN -->
+    <color name="primary_dark">#B3151B</color>
+    <color name="background_light">#F8F9FA</color>
+
+    <!-- Text colors -->
+    <color name="text_primary">#212529</color>
+    <color name="text_secondary">#6C757D</color>
+    <color name="text_tertiary">#ADB5BD</color>
+
+    <!-- States -->
+    <color name="surface_color">#FFFFFF</color>
+    <color name="outline_color">#DEE2E6</color>
+
+    <!-- search  -->
+    <color name="field_bg">#FFFFFFFF</color>
+    <color name="field_stroke">#E6E6E6</color>
+
+    <!-- Text -->
+    <color name="fg_primary">#202124</color>
+    <color name="fg_secondary">#666A6D</color>
+    <color name="fg_hint">#9AA0A6</color>
+
+    <!-- Botón -->
+    <color name="btn_primary">#6A1B9A</color>
+    <color name="btn_text_on_primary">#FFFFFF</color>
+
+    <!-- Elements adapters -->
+    <color name="icon_tint">#231F20</color>
+    <color name="progress_overlay">#CC000000</color>
+</resources>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/newsFragment">
+
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.espnapp.ui.news.NewsFragment"
+        android:label="Noticias"
+        tools:layout="@layout/fragment_news" />
+
+    <fragment
+        android:id="@+id/resultsFragment"
+        android:name="com.example.espnapp.ui.results.ResultsFragment"
+        android:label="Resultados"
+        tools:layout="@layout/fragment_results" />
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.espnapp.ui.more.MenuFragment"
+        android:label="Menú"
+        tools:layout="@layout/fragment_menu" />
+
+    <!-- DESTINO QUE USA MenuFragment -->
+    <fragment
+        android:id="@+id/sportNewsFragment"
+        android:name="com.example.espnapp.ui.news.SportNewsFragment"
+        android:label="Noticias por deporte"
+        tools:layout="@layout/fragment_news" />
+
+    <!-- DESTINO QUE USA ResultsFragment -->
+    <fragment
+        android:id="@+id/leagueResultsFragment"
+        android:name="com.example.espnapp.ui.results.LeagueResultsFragment"
+        android:label="Resultados de la liga"
+        tools:layout="@layout/fragment_league_results" />
+
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.espnapp.ui.search.SearchFragment"
+        android:label="Buscar"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/teamFragment"
+        android:name="com.example.espnapp.ui.team.TeamFragment"
+        android:label="Equipo"
+        tools:layout="@layout/fragment_team" />
+</navigation>

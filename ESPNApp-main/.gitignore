@@ -1,0 +1,53 @@
+# --- Gradle ---
+.gradle/
+**/build/
+# NO ignores el wrapper (se debe versionar):
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+
+# --- Config local (no versionar) ---
+local.properties
+keystore.properties
+*.jks
+*.keystore
+
+# --- Android Studio / IntelliJ ---
+.idea/
+# (Opcional: si querés compartir estilos y run configs, destildá estas líneas)
+# !.idea/codeStyles
+# !.idea/runConfigurations
+*.iml
+.cxx/
+out/
+
+# --- Artifacts / Salidas ---
+*.apk
+*.aab
+outputs/
+captures/
+.externalNativeBuild/
+.navigation/
+
+# --- Kotlin/Anotación/NDK generados ---
+**/kapt*/
+obj/
+**/generated/
+
+# --- Logs y reportes ---
+*.log
+reports/
+test-results/
+
+# --- SO / Otros ---
+.DS_Store
+Thumbs.db
+
+# --- (Opcional) Firebase/Google ---
+# Si NO querés subir tu archivo de configuración:
+# google-services.json
+# GoogleService-Info.plist
+
+# --- (Opcional) Dotenv / secretos propios ---
+.env
+.env.*
+*.pem

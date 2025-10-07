@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PokeApi</string>
+    <string name="dark_mode">Modo oscuro</string>
+    <string name="light_mode">Modo claro</string>
+</resources>
